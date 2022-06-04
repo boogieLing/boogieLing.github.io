@@ -95,7 +95,9 @@ function code_block_add_hljs() {
 function code_block_add_lang() {
     $("main.content pre.hljs").each(function () {
         let code_lang = $(this).find("code").attr("class");
-        code_lang = code_lang.replace("language-", "");
+        if (code_lang) {
+            code_lang = code_lang.replace("language-", "");
+        }
         $(this).prepend(`<div class="code_lang">${code_lang}</div>`);
     });
 }
