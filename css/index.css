@@ -652,6 +652,7 @@ main.content ol {
 main.content ol li {
   position: relative;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 main.content ol li::marker {
   color: #2a83a2;
@@ -659,6 +660,37 @@ main.content ol li::marker {
   font-weight: 300;
   display: inline-block;
   float: top;
+}
+main.content ol li a {
+  color: #2792c3;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 60vw;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  margin: 0 5px;
+  font-size: 0.5rem;
+  text-underline: #0984e3;
+}
+main.content ol li a::after {
+  content: "↱";
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: lightpink;
+  animation-name: jump_twice;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-play-state: paused;
+  margin-left: 5px;
+}
+main.content ol li a:hover::after {
+  animation-play-state: running;
 }
 main.content ol li pre code {
   font-family: SourceCodePro !important;
@@ -676,6 +708,37 @@ main.content ul li {
   transition: 0.2s;
   display: inline-block;
   width: 100%;
+}
+main.content ul li a {
+  color: #2792c3;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 60vw;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  margin: 0 5px;
+  font-size: 0.5rem;
+  text-underline: #0984e3;
+}
+main.content ul li a::after {
+  content: "↱";
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: lightpink;
+  animation-name: jump_twice;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-play-state: paused;
+  margin-left: 5px;
+}
+main.content ul li a:hover::after {
+  animation-play-state: running;
 }
 main.content ul li::before {
   content: ".";

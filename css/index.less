@@ -707,42 +707,7 @@ main.content {
     }
 
     a {
-      color: #2792c3;
-      position: relative;
-      display: inline-block;
-      box-sizing: border-box;
-      max-width: 60vw;
-      height: 100%;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      vertical-align: bottom;
-      margin: 0 5px;
-      font-size: 0.5rem;
-      // text-decoration: none;
-      text-underline: #0984e3;
-
-      &::after {
-        content: "↱";
-        position: relative;
-        display: inline-block;
-        font-size: 20px;
-        color: lightpink;
-        animation-name: jump_twice;
-        animation-duration: 0.3s;
-        animation-iteration-count: infinite;
-        // animation-timing-function: cubic-bezier(0.72, 0.01, 1, 1);
-        animation-delay: 0s;
-        animation-play-state: paused;
-        margin-left: 5px;
-      }
-
-      &:hover {
-
-        &::after {
-          animation-play-state: running;
-        }
-      }
+      @content_all_link_a() ;
     }
 
     del {
@@ -782,13 +747,17 @@ main.content {
     li {
       position: relative;
       margin-bottom: 10px;
-      // margin-top: 10px;
+      margin-top: 5px;
       &::marker {
         color: #2a83a2;
         font-size: 12px;
         font-weight: 300;
         display: inline-block;
         float: top;
+      }
+
+      a {
+        @content_all_link_a() ;
       }
 
       pre {
@@ -812,6 +781,10 @@ main.content {
       transition: 0.2s;
       display: inline-block;
       width: 100%;
+
+      a {
+        @content_all_link_a() ;
+      }
 
       &::before {
         content: ".";
@@ -1011,5 +984,44 @@ main.content {
   }
   100% {
     transform: translateY(-5px);
+  }
+}
+
+@content_all_link_a: {
+  color: #2792c3;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 60vw;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  margin: 0 5px;
+  font-size: 0.5rem;
+  // text-decoration: none;
+  text-underline: #0984e3;
+
+  &::after {
+    content: "↱";
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: lightpink;
+    animation-name: jump_twice;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    // animation-timing-function: cubic-bezier(0.72, 0.01, 1, 1);
+    animation-delay: 0s;
+    animation-play-state: paused;
+    margin-left: 5px;
+  }
+
+  &:hover {
+
+    &::after {
+      animation-play-state: running;
+    }
   }
 }
