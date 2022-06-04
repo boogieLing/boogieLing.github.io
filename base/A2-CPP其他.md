@@ -57,7 +57,7 @@ int main(){
 
 输出：12
 
-![](https://images0.cnblogs.com/blog2015/580631/201503/271354292862668.png)
+![https://images0.cnblogs.com/blog2015/580631/201503/271354292862668.png](A2-CPP其他.assets/271354292862668.png)
 
 ```cpp
 class test2 {
