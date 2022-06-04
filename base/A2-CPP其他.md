@@ -619,9 +619,9 @@ typedef struct _IMAGE_SECTION_HEADER{
 #define IMAGE_SIZEOF_SECTION_HEADER 40
 ```
 
-![img](https://upload-images.jianshu.io/upload_images/3790176-fe1afaebb0fbc3e2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/394)
+![img](../A2-CPP其他.assets/3790176-fe1afaebb0fbc3e2.jpg)
 
-![这里写图片描述](https://img-blog.csdn.net/20170811174127876?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQXBvbGxvbl9rcmo=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![img](../A2-CPP其他.assets/20170811174127876)
 
 ---
 
