@@ -686,20 +686,7 @@ main.content {
     margin: 10px 0;
     // 文字主体
     code {
-      border-radius: 3px;
-      // border: 1px solid rgba(129, 236, 236, .4) ;
-      display: inline-block;
-      box-sizing: border-box;
-      padding: 3px 5px;
-      transition: 0.2s;
-      margin: 0 5px;
-      box-shadow: 0 0 5px rgba(178, 190, 195, 0.5);
-
-      &:hover {
-        background: #00cec9;
-        color: white;
-        box-shadow: 0 0 5px rgba(178, 190, 195, 1.0);
-      }
+      @content_all_code_inline_block();
     }
 
     img {
@@ -744,10 +731,15 @@ main.content {
   ol {
     position: relative;
 
+    code {
+      @content_all_code_inline_block();
+    }
+
     li {
       position: relative;
       margin-bottom: 10px;
       margin-top: 5px;
+
       &::marker {
         color: #2a83a2;
         font-size: 12px;
@@ -774,6 +766,10 @@ main.content {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+
+    code {
+      @content_all_code_inline_block();
+    }
 
     li {
       position: relative;
@@ -984,6 +980,23 @@ main.content {
   }
   100% {
     transform: translateY(-5px);
+  }
+}
+
+@content_all_code_inline_block: {
+  border-radius: 3px;
+  // border: 1px solid rgba(129, 236, 236, .4) ;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 3px 5px;
+  transition: 0.2s;
+  margin: 0 5px;
+  box-shadow: 0 0 5px rgba(178, 190, 195, 0.5);
+
+  &:hover {
+    background: #00cec9;
+    color: white;
+    box-shadow: 0 0 5px rgba(178, 190, 195, 1.0);
   }
 }
 
