@@ -686,7 +686,7 @@ main.content {
     margin: 10px 0;
     // 文字主体
     code {
-      @content_all_code_inline_block();
+      @content_code_inline_block();
     }
 
     img {
@@ -732,7 +732,7 @@ main.content {
     position: relative;
 
     code {
-      @content_all_code_inline_block();
+      @content_list_code_inline_block();
     }
 
     li {
@@ -768,7 +768,7 @@ main.content {
     justify-content: flex-start;
 
     code {
-      @content_all_code_inline_block();
+      @content_list_code_inline_block();
     }
 
     li {
@@ -983,7 +983,10 @@ main.content {
   }
 }
 
-@content_all_code_inline_block: {
+@content_list_code_inline_block: {
+}
+
+@content_code_inline_block: {
   border-radius: 3px;
   // border: 1px solid rgba(129, 236, 236, .4) ;
   display: inline-block;

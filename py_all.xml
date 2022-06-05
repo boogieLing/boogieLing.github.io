@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <r0_note>
 <base>
-<md>./base/A1-CPP对象模型总结.md</md>
-<md>./base/A2-CPP其他.md</md>
-<md>./base/A3-操作系统.md</md>
-<md>./base/A3-计算机网络.md</md>
-<md>./base/A4-redis.md</md>
-<md>./base/A5-微服务.md</md>
-<md>./base/A6-神经网络.md</md>
-<md>./base/B1-C++11.md</md>
-<md>./base/B1-Effective C++.md</md>
-<md>./base/B2-Django.md</md>
-<md>./base/B2-Flask.md</md>
-<md>./base/B2-es.md</md>
-<md>./base/B2-数据库.md</md>
-<md>./base/B2-项目相关.md</md>
-<md>./base/C-STL.md</md>
-<md>./base/C-fastapi.md</md>
-<md>./base/C-mongo.md</md>
-<md>./base/CPP.md</md>
-<md>./base/D-Git.md</md>
-<md>./base/D-Linux.md</md>
-<md>./base/D-Python.md</md>
-<md>./base/D-golang.md</md>
-<md>./base/D-字节乐扣排序.md</md>
-<md>./base/D-手撕代码.md</md>
-<md>./base/D-数据结构.md</md>
-<md>./base/D-网络开发.md</md>
-<md>./base/E-Cpp对象模式.md</md>
-<md>./base/E-Data Member的存取.md</md>
-<md>./base/E-Data Member的布局.md</md>
-<md>./base/E-Data Member的绑定.md</md>
-<md>./base/E-Data语意学.md</md>
-<md>./base/E-Schwartz counter.md</md>
-<md>./base/E-全局对象.md</md>
-<md>./base/E-关于对象.md</md>
-<md>./base/E-关键词带来的差异.md</md>
-<md>./base/E-指针与编译器的配合.md</md>
-<md>./base/E-程序转化语义.md</md>
+<md>./base\A1-CPP对象模型总结.md</md>
+<md>./base\A2-CPP其他.md</md>
+<md>./base\A3-操作系统.md</md>
+<md>./base\A3-计算机网络.md</md>
+<md>./base\A4-redis.md</md>
+<md>./base\A5-微服务.md</md>
+<md>./base\A6-神经网络.md</md>
+<md>./base\B1-C++11.md</md>
+<md>./base\B1-Effective C++.md</md>
+<md>./base\B1-Golang.md</md>
+<md>./base\B2-Django.md</md>
+<md>./base\B2-Flask.md</md>
+<md>./base\B2-es.md</md>
+<md>./base\B2-数据库.md</md>
+<md>./base\B2-项目相关.md</md>
+<md>./base\C-CPP.md</md>
+<md>./base\C-STL.md</md>
+<md>./base\C-fastapi.md</md>
+<md>./base\C-mongo.md</md>
+<md>./base\D-Git.md</md>
+<md>./base\D-Linux.md</md>
+<md>./base\D-Python.md</md>
+<md>./base\D-字节乐扣排序.md</md>
+<md>./base\D-手撕代码.md</md>
+<md>./base\D-数据结构.md</md>
+<md>./base\D-网络开发.md</md>
+<md>./base\E-Cpp对象模式.md</md>
+<md>./base\E-Data Member的存取.md</md>
+<md>./base\E-Data Member的布局.md</md>
+<md>./base\E-Data Member的绑定.md</md>
+<md>./base\E-Data语意学.md</md>
+<md>./base\E-Schwartz counter.md</md>
+<md>./base\E-全局对象.md</md>
+<md>./base\E-关于对象.md</md>
+<md>./base\E-关键词带来的差异.md</md>
+<md>./base\E-指针与编译器的配合.md</md>
+<md>./base\E-程序转化语义.md</md>
 </base>
 </r0_note>

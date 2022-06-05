@@ -10,7 +10,7 @@ flask：
 
 适用于做小型网站和web服务的api，开发大型网站的时候需要自己设计架构
 
-![这里写图片描述](https://img-blog.csdn.net/20180720202930363?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dsX3B5dGhvbg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](../B2-Django.assets/20180720202930363)
 
 Django：
 
