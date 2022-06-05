@@ -215,7 +215,7 @@ async function get_markdown_file(xmlFile, albumName) {
         // alert(photoName);
 
         const new_item = `<span class="file_item">
-                <i class="iconfont icon-icon-"></i>
+                <i class="iconfont icon-zuozhe"></i>
                 <span href="${src}" class="file_a">${alt_name}</span>
         </span>`;
         const $new_item = $(new_item);

@@ -368,7 +368,6 @@ body div#toc-box .file_box .file_item_box .file_item {
   box-sizing: border-box;
   width: 100%;
   padding: 5px 10px;
-  padding-bottom: 5px;
   font-size: 12px;
   cursor: pointer;
   user-select: none;
@@ -377,8 +376,8 @@ body div#toc-box .file_box .file_item_box .file_item .iconfont {
   color: #636e72;
 }
 body div#toc-box .file_box .file_item_box .file_item .file_a {
-  white-space: nowrap;
   overflow: hidden;
+  white-space: nowrap;
 }
 body div#toc-box .file_box .file_item_box .file_item::before {
   content: "";
