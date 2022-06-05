@@ -602,10 +602,14 @@ main.content {
     box-sizing: border-box;
     border-collapse: collapse;
     border-bottom: 1px solid #f6bfbc;
+    margin: 10px 0;
 
     thead {
       position: relative;
       width: auto;
+      background-color: rgba(250, 177, 160, 0.5);
+      padding: 5px 0;
+      line-height: 30px;
 
       &::after {
         content: "";
@@ -619,7 +623,8 @@ main.content {
 
       tr {
         th {
-          border-right: 1px solid #f6bfbc;
+          // border-right: 1px solid #f6bfbc;
+          border: 1px solid #f6bfbc;
           padding: 0 5px 5px 5px;
         }
       }
@@ -627,15 +632,23 @@ main.content {
 
     tbody {
       position: relative;
-      margin: 0;
+      margin: 5px 0;
 
       tr {
-        margin: 0;
+        margin: 5px 0;
+        line-height: 30px;
+        font-size: 14px;
+        &:nth-child(2n) {
+          background-color: rgba(250, 177, 160, 0.3);
+        }
 
         td {
-          border-right: 1px solid #f6bfbc;
+          // border-right: 1px solid #f6bfbc;
           padding: 0 5px;
           margin: 0;
+          border-right: 1px solid #f6bfbc;
+          border-left: 1px solid #f6bfbc;
+
         }
       }
     }

@@ -2,14 +2,14 @@
 
 ## B- Tree与B+ Tree
 
-![索引](http://img.blog.csdn.net/20160202204827368)
+![索引](../D-数据结构.assets/20160202204827368)
 
 B树是一种多路自平衡搜索树，它类似普通的二叉树，但是B书允许每个节点有更多的子节点。
 
 每个非叶子节点包含有n个关键字信息(n，P0，K1，P1，K2，P2，......，Kn，Pn)，其中：
  a)   Ki (i=1...n)为关键字，且关键字按顺序升序排序K(i-1)< Ki。
 
-![img](https://upload-images.jianshu.io/upload_images/7361383-b4226ba0e306bd27.png?imageMogr2/auto-orient/strip|imageView2/2/w/800)
+![img](../D-数据结构.assets/7361383-b4226ba0e306bd27.png)
 
 B树的特点：
 
@@ -20,7 +20,7 @@ B树的特点：
 
 B+树是B树的变体，也是一种多路平衡查找树
 
-![索引](http://img.blog.csdn.net/20160202205105560)
+![索引](../D-数据结构.assets/20160202205105560)
 
 B+树与B树的不同在于：
 

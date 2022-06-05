@@ -507,10 +507,14 @@ main.content table {
   box-sizing: border-box;
   border-collapse: collapse;
   border-bottom: 1px solid #f6bfbc;
+  margin: 10px 0;
 }
 main.content table thead {
   position: relative;
   width: auto;
+  background-color: rgba(250, 177, 160, 0.5);
+  padding: 5px 0;
+  line-height: 30px;
 }
 main.content table thead::after {
   content: "";
@@ -522,20 +526,26 @@ main.content table thead::after {
   background: #f6bfbc;
 }
 main.content table thead tr th {
-  border-right: 1px solid #f6bfbc;
+  border: 1px solid #f6bfbc;
   padding: 0 5px 5px 5px;
 }
 main.content table tbody {
   position: relative;
-  margin: 0;
+  margin: 5px 0;
 }
 main.content table tbody tr {
-  margin: 0;
+  margin: 5px 0;
+  line-height: 30px;
+  font-size: 14px;
+}
+main.content table tbody tr:nth-child(2n) {
+  background-color: rgba(250, 177, 160, 0.3);
 }
 main.content table tbody tr td {
-  border-right: 1px solid #f6bfbc;
   padding: 0 5px;
   margin: 0;
+  border-right: 1px solid #f6bfbc;
+  border-left: 1px solid #f6bfbc;
 }
 main.content blockquote {
   position: relative;
